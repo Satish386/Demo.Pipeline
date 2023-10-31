@@ -1,0 +1,13 @@
+prefix=/workspaces/Demo.Pipeline/venv
+exec_prefix=/workspaces/Demo.Pipeline/venv
+libdir=/workspaces/Demo.Pipeline/venv/lib
+sharedlibdir=/workspaces/Demo.Pipeline/venv/lib
+includedir=/workspaces/Demo.Pipeline/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
